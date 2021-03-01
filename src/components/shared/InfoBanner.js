@@ -8,14 +8,32 @@ import Row from 'react-bootstrap/lib/Row'
 
 // const fetch = FetchPonyfill().fetch
 
-// const BANNER_JSON =
-//   'https://raw.githubusercontent.com/chatch/stellarexplorer/master/banner.json'
+ const BANNER_JSON =
+   'https://raw.githubusercontent.com/chatch/stellarexplorer/master/banner.json'
 
 const InfoBanner = ({message}) => (
   <Grid style={{marginBottom: 0}}>
     <Row>
       <Col style={{marginTop: 0, marginBottom: 0, paddingLeft: 0}}>
-        <div class="dark" data-ea-publisher="steexp" data-ea-type="text"></div>
+        <div class="dark" data-ea-publisher="steexp" data-ea-type="text">
+	<br/>
+	WE LOVE PI, WE RUN PI NODE ;)
+	<br/>
+	Tham gia cùng chúng tôi, mã <a href="https://minepi.com/halybang">halybang</a> hoặc <a href="https://minepi.com/bibupbin" target="_blank">minepi.com/bibupbin</a>
+	<br/>
+	Nhóm PI Node: <a href="https://t.me/PiNodeGroup" target="_blank">t.me/PiNodeGroup</a>
+	<br/>
+	Donate if you can: 
+	<table>
+	  <tr>
+	    <td><a href="https://www.coingecko.com/en/coins/elrond">eGLD</a> erd1rzp4r4x9tgtksrw8c52ynqkeesja0n9dwjjn6mrlsrdt6g7unejql2a9hf</td>
+	  </tr>
+	  <tr>
+            <td><a href="https://www.coingecko.com/en/coins/polkadot">DOT</a> 13KGP6pDp8ZBbRAvbWqW8EHZbYFPfUY2huyNNzaa4bmBBpxQ</td>
+            <td><a href="https://www.coingecko.com/en/coins/tixl">TIXL</a> bnb19mdl00kreydm6x6wz0jlasng3t9zu3tq89qs98</td>
+	  </tr>
+	</table>		
+	</div>
   {/*
         <div class="dark" data-ea-publisher="steexp" data-ea-type="image"></div> 
    */}

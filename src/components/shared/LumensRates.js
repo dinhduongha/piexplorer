@@ -60,7 +60,7 @@ class LumensRates extends React.PureComponent {
   render() {
     return (
       <span>
-        XLM/USD: {this.props.usd} {this.renderChange(this.props.change)}
+        PI/USD: {this.props.usd} {this.renderChange(this.props.change)}
       </span>
     )
   }

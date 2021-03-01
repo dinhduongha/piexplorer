@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>
-			https://steexp.com/
+			https://WePi.vn/
 		</loc>
 	</url>
 	<url>
 		<loc>
-			https://steexp.com/operations
+			https://WePi.vn/operations
 		</loc>
 	</url>
 	<url>
 		<loc>
-			https://steexp.com/ledgers
+			https://WePi.vn/ledgers
 		</loc>
 	</url>
 	<url>
 		<loc>
-			https://steexp.com/txs
+			https://WePi.vn/txs
 		</loc>
 	</url>
 	<url>
 		<loc>
-			https://steexp.com/exchanges
+			https://WePi.vn/exchanges
 		</loc>
 	</url>
 	<url>
 		<loc>
-			https://steexp.com/assets
+			https://WePi.vn/assets
 		</loc>
 	</url>
 	<url>
 		<loc>
-			https://steexp.com/anchors
+			https://WePi.vn/anchors
 		</loc>
 	</url>
 	<url>
 		<loc>
-			https://steexp.com/payments
+			https://WePi.vn/payments
 		</loc>
 	</url>
 	<url>
 		<loc>
-			https://steexp.com/effects
+			https://WePi.vn/effects
 		</loc>
 	</url>
 	<url>
 		<loc>
-			https://steexp.com/trades
+			https://WePi.vn/trades
 		</loc>
 	</url>
 </urlset>

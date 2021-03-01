@@ -55,7 +55,7 @@ const HelpModal = props => (
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://steexp.com/anchors"
+            href="https://wepi.vn/anchors"
           >
             Anchors Page
           </a>

@@ -125,19 +125,19 @@ class Ledger extends React.Component {
               <Table>
                 <tbody>
                   <DetailRow label="base.fee">
-                    <FormattedNumber value={baseFee} /> stroops
+                    <FormattedNumber value={baseFee} /> pitoshi 
                   </DetailRow>
                   <DetailRow label="base.reserve">
                     {baseInStroops
                       ? stroopsToLumens(baseReserve)
                       : Number(baseReserve)}{' '}
-                    XLM
+                   PI 
                   </DetailRow>
                   <DetailRow label="fee.pool">
-                    <FormattedNumber value={feePool} /> XLM
+                    <FormattedNumber value={feePool} /> PI 
                   </DetailRow>
                   <DetailRow label="total.coins">
-                    <FormattedNumber value={totalCoins} /> XLM
+                    <FormattedNumber value={totalCoins} /> PI 
                   </DetailRow>
                   <DetailRow label="protocolVersion">{protocol}</DetailRow>
                 </tbody>

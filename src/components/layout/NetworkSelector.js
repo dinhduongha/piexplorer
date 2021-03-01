@@ -12,15 +12,6 @@ const NetworkButton = ({networkType, selectedNetworkType, switchNetworkType}) =>
 
 const NetworkSelector = props =>
   <div className="Network-Selector">
-    {[networks.public, networks.test].map(networkType =>
-      <NetworkButton
-        key={networkType}
-        hide={networks[networkType].hide}
-        networkType={networkType}
-        selectedNetworkType={props.networkType}
-        switchNetworkType={props.switchNetworkType}
-      />
-    )}
     <CustomNetworkButton
       key="custom-network"
       networkAddress={props.networkAddress}

@@ -38,8 +38,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'react-json-pretty/src/JSONPretty.1337.css'
 import './App.css'
 
-const HOME_PUBLIC = 'https://steexp.com'
-const HOME_TESTNET = 'https://testnet.steexp.com'
+const HOME_PUBLIC = 'https://WePi.vn'
+const HOME_TESTNET = 'https://WePi.vn'
 
 const storage = storageInit()
 
