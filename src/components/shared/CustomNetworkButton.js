@@ -4,9 +4,7 @@ import Modal from 'react-bootstrap/lib/Modal'
 import {FormattedMessage} from 'react-intl'
 
 const networkAddresses = [
-  'http://testnet1.minepi.com:31401',
-  'http://testnet2.minepi.com:31401',
-  'http://testnet3.minepi.com:31401',
+  'https://api.testnet.minepi.com',
   'https://horizon.stellar.org',
 ]
 

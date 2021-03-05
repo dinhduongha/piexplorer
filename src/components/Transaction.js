@@ -33,9 +33,8 @@ class Transaction extends React.Component {
   }
 
   render() {
-    const {id, urlFn, fee, ledger, memoType, memo, opCount, time} = this.props
+    const {id, urlFn, fee, ledger, memoType, memo, opCount, time, success} = this.props
     if (!id) return null
-    
     setTitle(`Transaction ${id}`)
     
     const {formatMessage} = this.props.intl
@@ -78,6 +77,12 @@ class Transaction extends React.Component {
                     <Link to={`/ledger/${ledger}`}>{ledger}</Link>
                   </td>
                 </tr>
+		<tr>
+                  <td>
+                    <FormattedMessage id="Success" />
+                  </td>
+                  <td>{success===true?"true":"false"} </td>
+                </tr>
                 <tr>
                   <td>
                     <FormattedMessage id="memo" />{' '}
@@ -111,13 +116,14 @@ class Transaction extends React.Component {
 }
 
 Transaction.propTypes = {
-  fee: PropTypes.number,
+  fee: PropTypes.string,
   id: PropTypes.string,
   ledger: PropTypes.number,
   memo: PropTypes.string,
   memoType: PropTypes.string,
   operations: PropTypes.array,
   time: PropTypes.string,
+  success: PropTypes.bool,
   urlFn: PropTypes.func,
 }
 
@@ -148,8 +154,9 @@ class TransactionContainer extends React.Component {
     return (
       <TransactionIntl
         id={tx.id}
-        fee={tx.fee_paid}
+        fee={tx.fee_charged}
         ledger={tx.ledger_attr}
+        success={tx.successful}
         memoType={tx.memo_type}
         memo={tx.memo}
         opCount={tx.operation_count}

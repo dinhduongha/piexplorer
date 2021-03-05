@@ -2,9 +2,9 @@ import sdk from './sdk'
 import networks from './networks'
 
 export const defaultNetworkAddresses = {
-  public: 'http://testnet1.minepi.com:31401',
-  test: 'http://testnet1.minepi.com:31401',
-  local: 'http://testnet1.minepi.com:31401',
+  public: 'https://api.testnet.minepi.com',
+  test: 'https://api.testnet.minepi.com',
+  local: 'https://api.testnet.minepi.com',
 }
 
 /**

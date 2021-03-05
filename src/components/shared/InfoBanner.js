@@ -19,10 +19,9 @@ const InfoBanner = ({message}) => (
 	<br/>
 	WE LOVE PI, WE RUN PI NODE ;)
 	<br/>
-	Tham gia cùng chúng tôi, mã <a href="https://minepi.com/halybang">halybang</a> hoặc <a href="https://minepi.com/bibupbin" target="_blank">minepi.com/bibupbin</a>
+	Chat: <a href="https://t.me/PiNodeGroup" target="_blank">t.me/PiNodeGroup</a>
 	<br/>
-	Nhóm PI Node: <a href="https://t.me/PiNodeGroup" target="_blank">t.me/PiNodeGroup</a>
-	<br/>
+	{/*
 	Donate if you can: 
 	<table>
 	  <tr>
@@ -33,6 +32,7 @@ const InfoBanner = ({message}) => (
             <td><a href="https://www.coingecko.com/en/coins/tixl">TIXL</a> bnb19mdl00kreydm6x6wz0jlasng3t9zu3tq89qs98</td>
 	  </tr>
 	</table>		
+	*/}
 	</div>
   {/*
         <div class="dark" data-ea-publisher="steexp" data-ea-type="image"></div> 

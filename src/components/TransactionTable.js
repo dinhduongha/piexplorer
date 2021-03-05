@@ -21,6 +21,7 @@ class TransactionRow extends React.Component {
       showLedger,
       showSource,
       time,
+      success,
     } = this.props
     return (
       <tr>
@@ -63,6 +64,7 @@ TransactionRow.propTypes = {
   showLedger: PropTypes.bool,
   showSource: PropTypes.bool,
   time: PropTypes.string.isRequired,
+  success: PropTypes.bool,
 }
 
 class TransactionTable extends React.Component {
@@ -108,6 +110,7 @@ class TransactionTable extends React.Component {
               parentRenderTimestamp={parentRenderTimestamp}
               showLedger={showLedger}
               showSource={showSource}
+              success={tx.successful}
               {...tx}
             />
           ))}
